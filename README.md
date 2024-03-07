@@ -105,7 +105,7 @@ batch.run(function(err, response){
 	if (err){
 		console.log("Error: " + err.toString());
 	} else {
-		res.json(response);
+		console.log(responce);
 	}
 });
 ```
